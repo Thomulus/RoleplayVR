@@ -1,0 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PrintonRay : MonoBehaviour
+{
+    public string SelfDescription;
+    // Use this for initialization
+    public void printSelfDescription()
+    {
+        string myText = string.Concat("What appears to be ", SelfDescription);
+        Debug.Log(myText);
+    }
+}
